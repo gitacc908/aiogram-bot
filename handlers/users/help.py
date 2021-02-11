@@ -10,6 +10,6 @@ async def bot_help(message: types.Message):
             "/start - Начать диалог",
             "/help - Получить справку",
             "/menu - Для получения кнопок",
-            "/items - Для получения inline buttons")
+            '/tell_everyone - Mailing (только для админа)')
     
     await message.answer("\n".join(text))
